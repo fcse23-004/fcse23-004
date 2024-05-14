@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Warner Bros| Feedback</title>
+        <meta name="viewport" content="Width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/mystyles.css">
+        <style>
+            /* CSS styles for the form */
+            body {
+              font-family: Arial, sans-serif;
+            }
+            
+            .container {
+              max-width: 400px;
+              margin: 40px auto; /* Adjust the margin to increase spacing */
+              padding: 20px;
+              border: 1px solid #ccc;
+              background-color: #f9f9f9;
+            }
+            
+            .form-group {
+              margin-bottom: 20px;
+            }
+            
+            label {
+              display: block;
+              margin-bottom: 5px;
+              font-weight: bold;
+            }
+            
+            input[type="text"],
+            input[type="email"],
+            textarea {
+              width: 100%;
+              padding: 8px;
+              border: 1px solid #ccc;
+              border-radius: 4px;
+            }
+            
+            textarea {
+              height: 120px;
+            }
+            
+            button[type="submit"] {
+              padding: 8px 12px;
+              background-color: #555;
+              color: #fff;
+              border: none;
+              border-radius: 4px;
+              cursor: pointer;
+            }
+        </style>
+    </head>
+<body>
+    <nav>
+        <div class="sidenav">
+            <a href="index.html"><img src="Images/logo.png" alt="Logo" width="70px" height="68px"></a>
+            <a href="index.html">Home</a>
+            <a href="tvshows.html">Tvshows</a>
+            <a href="movies.html">Movies</a>
+            <a href="games&apps.html">Games & Apps</a>
+            <a href="animation.html">Animation</a>
+            <a href="feedback.html">feedback</a>
+        </div>
+    </nav>
+     <!-- Page content -->
+     <div class="main">
+      <div class="col-sm-4">
+        <div class="container">
+            <h2>Feedback Form</h2>
+            <form action="thank_you.html" method="post">
+              <!-- Form fields -->
+              <div class="form-group">
+                <label for="name">Your name:</label>
+                <input type="text" id="name" name="name" placeholder="Your name" required>
+              </div>
+              <div class="form-group">
+                <label for="email">Your email:</label>
+                <input type="email" id="email" name="email" placeholder="Your email" required>
+              </div>
+              <div class="form-group">
+                <label for="phone">Your phone:</label>
+                <input type="text" id="phone" name="phone" placeholder="Your phone">
+              </div>
+              <div class="form-group">
+                <label for="message">Your message:</label>
+                <textarea id="message" name="message" placeholder="Your message" required></textarea>
+              </div>
+              <button type="submit">Send</button>
+            </form>
+          </div>
+      </div>
+    </div>
+      <footer style="background-color: black; padding: 10px; color: white; text-align: center;">
+        <p style="margin: 0;">
+          TM &copy; 2023 Warner Bros. Entertainment Inc. All rights reserved.
+        </p>
+        <div style="margin-top: 10px;">
+          <a href="#" style="color: white; margin-right: 10px;">Facebook</a>
+          <a href="#" style="color: white; margin-right: 10px;">Twitter</a>
+          <a href="#" style="color: white;">Instagram</a>
+        </div>
+      </footer>
+</body>    
+</html>
